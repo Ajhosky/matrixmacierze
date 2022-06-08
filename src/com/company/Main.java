@@ -20,9 +20,9 @@ public class Main {
         Matrix m1 = new Matrix(3,3,tab1);
         Matrix m2 = new Matrix(3,3, tab2);
         dodawanieMacierzy(m1, m2);
-        odejmowanieMacierzy(m1, m2);
+        /*odejmowanieMacierzy(m1, m2);
         mnozenieMacierzy(m1, m2);
-        mnozenieMacierzyPrzezSkalar(m1, 5);
+        mnozenieMacierzyPrzezSkalar(m1, 5);*/
 
 
         /*dodawanieMacierzy(tab1, tab2);

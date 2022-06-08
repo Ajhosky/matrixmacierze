@@ -24,12 +24,12 @@ public class Matrix {
 //            {16, 15, 17}
 //    };
 
-    public static int[][] dodawanieMacierzy(Matrix macierz1[][], Matrix macierz2[][]){
+    public static int[][] dodawanieMacierzy(Matrix macierz1, Matrix macierz2){
         int[][] tmpTab = new int[3][3];
-        for (int i = 0; i < w; i++){
-            for (int j = 0; j < k; j++){
-                tmpTab[i][j] = macierz1[i][j] + macierz2[i][j];
-                System.out.println(macierz1[i][j]+ " + " + macierz2[i][j]+ " = " + tmpTab[i][j]);
+        for (int i = 0; i < height; i++){
+            for (int j = 0; j < width; j++){
+                tmpTab[i][j] = macierz1.tab1[i][j] + macierz2.tab1[i][j];
+                System.out.println(macierz1.tab1[i][j]+ " + " + macierz2.tab1[i][j]+ " = " + tmpTab[i][j]);
 
             }
         }
